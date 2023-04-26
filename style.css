@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(251, 233, 252);
+    background-image: url(https://c.ndtvimg.com/2020-02/bqktufvc_satellite-generic_625x300_01_February_20.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+button{
+    background-color: palevioletred;
+    color: greenyellow;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+legend{
+    color:rgb(187, 46, 97);
+}
+h3{
+    color:chartreuse;
+}
+h4{
+    color:pink;
+}
+label{
+    color:orangered;
+}
+label1{
+    color:rgb(98, 203, 238);
+}
+label2{
+    color:darkblue;
+}
+label3{
+    color:black;
+}
+label4{
+    color:magenta;
+}
+input[type=text]{
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: sienna;
+}
+input[type=number]{
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: sienna;
+}
+select{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+}
+@media(min-width:200px)(max-width:600px){
+    .flex1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    body{
+        background-image: url(https://i2-prod.mirror.co.uk/incoming/article27420407.ece/ALTERNATES/s1200d/0_Atlantis.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+
+}
